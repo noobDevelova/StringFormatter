@@ -1,6 +1,6 @@
 {
   "name": "@noobdevelova/stringformatter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Format String For Data Consistency",
   "main": "index.js",
   "exports": {
