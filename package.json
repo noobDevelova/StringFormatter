@@ -1,5 +1,5 @@
 {
-  "name": "stringformatter",
+  "name": "@noobdevelova/stringformatter",
   "version": "1.0.0",
   "description": "Format String For Data Consistency",
   "main": "index.js",
