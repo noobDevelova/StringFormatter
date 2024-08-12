@@ -13,7 +13,7 @@
 You can install the library via npm:
 
 ```bash
-npm install @noobdeveloba/stringformatter
+npm install @noobdevelova/stringformatter
 ```
 
 
