@@ -22,7 +22,7 @@ npm install @noobdevelova/stringformatter
 Example usage of this library:
 
 ```bash
-import { capitalizeFirst, capitalizeFullName, capitalizeSingleName } from 'string-capitalizer';
+import { capitalizeFirst, capitalizeFullName, capitalizeSingleName } from '@noobdevelova/stringformatter';
 
 // Example usage
 
