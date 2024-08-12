@@ -1,0 +1,29 @@
+{
+  "name": "stringformatter",
+  "version": "1.0.0",
+  "description": "Format String For Data Consistency",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noobDevelova/StringFormatter.git"
+  },
+  "keywords": [
+    "npm",
+    "string",
+    "formatter",
+    "noobDevelova"
+  ],
+  "author": "Randi Risdiansyah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noobDevelova/StringFormatter/issues"
+  },
+  "homepage": "https://github.com/noobDevelova/StringFormatter#readme"
+}
