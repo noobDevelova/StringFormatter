@@ -4,9 +4,11 @@
 import capitalizeSingleName from "./modules/capitalizeSingleName.js";
 import capitalizeFullName from "./modules/capitalizeFullName.js";
 import capitalizeFirst from "./modules/capitalizeFirst.js";
+import capitalizeAll from "./modules/capitalizeAll.js";
 
 export {
     capitalizeSingleName,
     capitalizeFullName,
-    capitalizeFirst
+    capitalizeFirst,
+    capitalizeAll
 }
