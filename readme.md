@@ -22,7 +22,7 @@ npm install @noobdevelova/stringformatter
 Example usage of this library:
 
 ```bash
-import { capitalizeFirst, capitalizeFullName, capitalizeSingleName } from '@noobdevelova/stringformatter';
+import { capitalizeFirst, capitalizeFullName, capitalizeSingleName, capitalizeAll } from '@noobdevelova/stringformatter';
 
 // Example usage
 
@@ -37,6 +37,10 @@ console.log(fullName); // Output: John Doe
 // Capitalize the first letter of a string
 const firstNameCapitalized = capitalizeFirst('example');
 console.log(firstNameCapitalized); // Output: Example
+
+// Capitalize the first letter of a string
+const allCapitalized = capitalizeAll('example');
+console.log(firstNameCapitalized); // Output: EXAMPLE
 ```
 ## Acknowledgments
 
