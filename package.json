@@ -1,6 +1,6 @@
 {
   "name": "@noobdevelova/stringformatter",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Format String For Data Consistency",
   "main": "index.js",
   "exports": {
@@ -8,7 +8,7 @@
   },
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "repository": {
     "type": "git",

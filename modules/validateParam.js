@@ -7,9 +7,9 @@
  * @throws {Error} If the parameter is not a string.
  */
 const validateParam = (str) => {
-    if (typeof str !== 'string') {
-        throw Error('Parameter must be a string!');  // Throw an error if the parameter is not a string
-    }
-}
+  if (typeof str !== "string") {
+    throw Error("Parameter must be a string!"); // Throw an error if the parameter is not a string
+  }
+};
 
 export default validateParam;

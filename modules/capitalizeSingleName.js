@@ -9,7 +9,7 @@ import capitalizeFirst from "./capitalizeFirst.js";
  * @returns {string} The name with the first letter capitalized.
  */
 const capitalizeSingleName = (fname) => {
-    return capitalizeFirst(fname);  // Use the capitalizeFirst function to capitalize the name
-}
+  return capitalizeFirst(fname); // Use the capitalizeFirst function to capitalize the name
+};
 
 export default capitalizeSingleName;

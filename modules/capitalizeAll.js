@@ -1,7 +1,7 @@
 // capitalizeAll.js
-// This module provides a function to capitalize all letter of a string 
+// This module provides a function to capitalize all letter of a string
 
-import validateParam from "./validateParam.js"
+import validateParam from "./validateParam.js";
 
 /**
  * Capitalizes all letter of a string.
@@ -9,8 +9,8 @@ import validateParam from "./validateParam.js"
  * @returns {string} The name with all letter capitalized.
  */
 const capitalizeAll = (name) => {
-    validateParam(name); // Validate if the parameter is a string
-    return name.toUpperCase(); // Return the capitalized string
-}
+  validateParam(name); // Validate if the parameter is a string
+  return name.toUpperCase(); // Return the capitalized string
+};
 
 export default capitalizeAll;

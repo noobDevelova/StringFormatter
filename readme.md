@@ -16,35 +16,44 @@ You can install the library via npm:
 npm install @noobdevelova/stringformatter
 ```
 
-
 ## Usage
 
 Example usage of this library:
 
 ```js
-import { capitalizeFirst, capitalizeFullName, capitalizeSingleName, capitalizeAll } from '@noobdevelova/stringformatter';
+import {
+  capitalizeFirst,
+  capitalizeFullName,
+  capitalizeSingleName,
+  capitalizeAll,
+} from "@noobdevelova/stringformatter";
 
 // Example usage
 
 // Capitalize the first letter of a single name
-const singleName = capitalizeSingleName('john');
+const singleName = capitalizeSingleName("john");
 console.log(singleName); // Output: John
 
 // Capitalize the first letter of each part of a full name
-const fullName = capitalizeFullName('john doe');
+const fullName = capitalizeFullName("john doe");
 console.log(fullName); // Output: John Doe
 
 // Capitalize the first letter of a string
-const firstNameCapitalized = capitalizeFirst('example');
+const firstNameCapitalized = capitalizeFirst("example");
 console.log(firstNameCapitalized); // Output: Example
 
+// Capitalize the first letter of a string and lower the rest
+const firstNameCapitalizedAndFix = capitalizeFirstAndFix("eXAMPle");
+console.log(firstNameCapitalizedAndFix); // Output: Example
+
 // Capitalize all letter of a string
-const allCapitalized = capitalizeAll('example');
+const allCapitalized = capitalizeAll("example");
 console.log(firstNameCapitalized); // Output: EXAMPLE
 ```
+
 ## Acknowledgments
 
-* **Author**: Randi Risdiansyah
+- **Author**: Randi Risdiansyah
 
 ## License
 
