@@ -38,7 +38,7 @@ console.log(fullName); // Output: John Doe
 const firstNameCapitalized = capitalizeFirst('example');
 console.log(firstNameCapitalized); // Output: Example
 
-// Capitalize the first letter of a string
+// Capitalize all letter of a string
 const allCapitalized = capitalizeAll('example');
 console.log(firstNameCapitalized); // Output: EXAMPLE
 ```
