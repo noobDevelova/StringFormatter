@@ -1,4 +1,4 @@
-// capitalizeFirst.js
+// capitalizeFirstAndFix.js
 // This module provides a function to capitalize the first letter of a string
 // and convert the rest of the string to lowercase.
 
